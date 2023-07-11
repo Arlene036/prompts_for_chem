@@ -1,0 +1,14 @@
+You are an expert chemist. Given the reactants SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge. 
+Please strictly follow the format, no other information can be provided. You should only reply with SMILES string notations to represent the product. The input contains the reactants and reagents which are split by '.'. The product smiles must be valid and chemically reasonable. 
+Reactants+Reagents: CC(O)OCCC(c1ccccc1)(c1ccccc1)c1ccccc1.Oc1ccc(I)cc1
+Products: CC(O)OCCOc1ccc(I)cc1
+Reactants+Reagents: CCN(CC)CC.CN1CCC(O)N(c2nnc(C3CC3)s2)C1=O.O=C(Cl)c1ccccc1.c1ccccc1
+Products: CN1CCC(OC(=O)c2ccccc2)N(c2nnc(C3CC3)s2)C1=O
+Reactants+Reagents: C1CCOC1.CC(C)(C)c1ccc(OCC(=O)O)cn1.CS(=O)(=O)Nc1ccc(CN)cc1F.Cl
+Products: CC(C)(C)c1ccc(OCC(=O)NCc2ccc(NS(C)(=O)=O)c(F)c2)cn1
+Reactants+Reagents: CS(C)=O.O=C([O-])[O-].O=Cc1ccccc1F.SC1CCCCC1.[K+].[K+]
+Products: O=Cc1ccccc1SC1CCCCC1
+Reactants+Reagents: C1CCOC1.CO.Cl.N#Cc1ccc(OCC(=NNC(=O)Nc2ccc(OC(F)(F)F)cc2)c2ccccc2)cc1.[BH3-]C#N.[Na+]
+Products: N#Cc1ccc(OCC(NNC(=O)Nc2ccc(OC(F)(F)F)cc2)c2ccccc2)cc1
+Reactants+Reagents: CN(C)C=O.N#CCc1c[nH]c2ccccc12.[K+].[OH-]
+Products:
